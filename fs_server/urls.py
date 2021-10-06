@@ -28,7 +28,6 @@ urlpatterns = [
     #path('admin/', admin.site.urls),
     #path('', include('userinfo.urls')),
     path('user/', include('userinfo.urls')),
-    path('docs/', include('docs.urls')),
     path('webcam/', include('webcam.urls')),
     path('', include('notification.urls')),
 ]

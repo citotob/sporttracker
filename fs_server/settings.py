@@ -97,8 +97,8 @@ INSTALLED_APPS = [
     'userinfo',
     'channels',
     # 'userinfo.utils',
-    'docs',
-    'notification'
+    'notification',
+    'webcam'
 ]
 
 SITE_ID = 1

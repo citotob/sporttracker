@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
-import MySQLdb
+#import MySQLdb
 import os
 import sys
 import logging
@@ -154,20 +154,20 @@ WSGI_APPLICATION = 'fs_server.wsgi.application'
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',   # Database engine
-        # The name of the library where you want to store the data.
-        'NAME': 'digidoc',
-        'USER': 'django',         # database username
-        'PASSWORD': 'datasintesa2021',  # 'python123',     # password
-        'HOST': '157.230.45.210',    # Host
-        'PORT': '3306',         # The port used by the database
-        # 'OPTIONS': {
-        #     'connect_timeout': 30,
-        # }
-    },
-}
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.mysql',   # Database engine
+#        # The name of the library where you want to store the data.
+#        'NAME': 'digidoc',
+#        'USER': 'django',         # database username
+#        'PASSWORD': 'datasintesa2021',  # 'python123',     # password
+#        'HOST': '157.230.45.210',    # Host
+#        'PORT': '3306',         # The port used by the database
+#        # 'OPTIONS': {
+#        #     'connect_timeout': 30,
+#        # }
+#    },
+#}
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
